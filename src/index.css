@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #eaf0f5;
+}
+
+.app-container{
+  margin: 50px;
+  color:#013365;
+}

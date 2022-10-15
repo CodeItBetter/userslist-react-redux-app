@@ -1,0 +1,28 @@
+.table-container{
+    padding: 20px;
+    background: #fff;
+    margin-top: 40px;
+    width: 100%;
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tr,th,td{
+    border: 1px solid;
+    padding: 6px;
+}
+
+thead{
+    color:#013365;
+    font-size: 18px;
+    
+}
+tbody{
+    font-size: 14px;
+    color: black;
+}
+i{
+    color: #013365;
+    cursor: pointer;
+}
