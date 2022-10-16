@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/userslist-react-redux-app/static/css/main.0badaaf4.css",
+    "main.js": "/userslist-react-redux-app/static/js/main.b06ade66.js",
+    "index.html": "/userslist-react-redux-app/index.html",
+    "main.0badaaf4.css.map": "/userslist-react-redux-app/static/css/main.0badaaf4.css.map",
+    "main.b06ade66.js.map": "/userslist-react-redux-app/static/js/main.b06ade66.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0badaaf4.css",
+    "static/js/main.b06ade66.js"
+  ]
+}
