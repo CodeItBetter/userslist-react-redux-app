@@ -4,5 +4,13 @@ form{
     justify-content: space-between;
     padding: 20px;
     background-color: #fff;
+    margin: auto;
     margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+    form{
+        flex-direction: column; 
+        max-width: 400px;
+    }
 }

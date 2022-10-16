@@ -11,3 +11,20 @@ input{
     padding: 5px;
     margin: 5px 0;
 }
+
+@media only screen and (max-width: 900px) {
+    .input{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    label{
+        flex: 1;
+    }
+    input{
+        margin: 5px 15px;
+        flex: 2;
+       
+    }
+}
