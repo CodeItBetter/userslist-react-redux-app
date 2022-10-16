@@ -6,7 +6,7 @@ export const getUserAsync = createAsyncThunk(
     'user/getUserAsync',
     async () => {
         try {
-            const response = await axios.get('http://localhost:7000/user');
+            const response = await axios.get('https://users-list-app.herokuapp.com/user');
             console.log(response);
             const user = await response.data;
             return { user };
@@ -22,7 +22,7 @@ export const addUserAsync = createAsyncThunk(
     try{
       const response = await axios({
         method: 'post',
-        url: 'http://localhost:7000/user',
+        url: 'https://users-list-app.herokuapp.com/user',
         data: {
           name: payload.name,
           email: payload.email,
@@ -41,7 +41,7 @@ export const addUserAsync = createAsyncThunk(
 export const deleteUserAsync = createAsyncThunk(
 	'user/deleteUserAsync',
 	async (payload) => {
-		const response = await axios.delete(`http://localhost:7000/user/${payload.id}`, {
+		const response = await axios.delete(`https://users-list-app.herokuapp.com/user/${payload.id}`, {
 			method: 'delete',
 		});
 		return { id: payload.id };
